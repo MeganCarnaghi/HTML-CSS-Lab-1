@@ -1,0 +1,49 @@
+/* Styling for Mobile Devices */
+
+/* Basic styling for page*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling for body */
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f9fafc;
+}
+
+/* Styling for navbar */
+
+/* Styling for logo */
+.logo a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Remove bullet points from ul */
+.nav-links {
+  list-style: none;
+}
+
+/* Styling for navbar links */
+.nav-item a {
+  text-decoration: none;
+  color: #69696a;
+}
+
+/* Styling for buttons */
+button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Styling for main paragrapg */
+main p {
+  border-left: 3px solid #69696a;
+  padding: 5px 10px;
+}
