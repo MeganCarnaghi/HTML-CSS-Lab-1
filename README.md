@@ -7,7 +7,7 @@
 
 ## Description
 
-A website created based on specifications from a designer, created with HTML and CSS.
+A responsive website created based on specifications from a designer, created with HTML and CSS.
 
 ## Technologies Used
 
@@ -15,5 +15,9 @@ A website created based on specifications from a designer, created with HTML and
 - CSS
 
 ## Links
+
+GitHub Repo:
+
+Deployed Application:
 
 ## Screenshots
