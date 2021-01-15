@@ -16,8 +16,11 @@ A responsive website created based on specifications from a designer, created wi
 
 ## Links
 
-GitHub Repo:
+GitHub Repo: https://github.com/MeganCarnaghi/Lab-1.git
 
 Deployed Application:
 
 ## Screenshots
+
+Mobile View  
+![Mobile View](assets/images/screenshot.jpg)

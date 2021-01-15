@@ -71,6 +71,11 @@ main {
   padding: 15px 15px;
 }
 
+/*Styling for the h2 */
+h2 {
+  font-weight: 500;
+}
+
 /* Styling for main paragraph */
 main p {
   color: #69696a;
