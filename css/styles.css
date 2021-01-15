@@ -29,14 +29,20 @@ nav {
   list-style: none;
 }
 
+/* Styling for nav bar list items */
+.nav-item {
+  margin: 10px 0;
+}
+
 /* Styling for navbar links */
 .nav-item a {
   text-decoration: none;
   color: #69696a;
 }
 
-/* Styling for buttons */
+/* Styling for the two buttons */
 button {
+  font-family: "Open Sans", sans-serif;
   background-color: #000;
   color: #fff;
   border: none;
