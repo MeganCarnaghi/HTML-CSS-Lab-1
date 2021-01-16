@@ -13,7 +13,7 @@ body {
   background-color: #f9fafc;
 }
 
-/* Styling for navbar */
+/* Styling for navbar container */
 nav {
   padding: 15px 15px;
 }
@@ -24,7 +24,7 @@ nav {
   color: #000;
 }
 
-/* Remove bullet points from ul */
+/* Remove bullet points from ul list items */
 .nav-links {
   list-style: none;
 }
@@ -84,17 +84,23 @@ main p {
   padding: 0px 15px;
 }
 
-/* Styling for devices of width >= 768px */
+/* Styling for medium devices + (landscape tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+  /* Styling for nav ul */
   .nav-links {
     display: flex;
     justify-content: flex-end;
   }
-
+  /* Styling for nav ul items */
   .nav-item {
     padding: 0 10px;
   }
-
+  /* styling for logo */
+  .logo {
+    flex: 1;
+    align-self: center;
+  }
+  /* styling for buttons */
   button {
     width: auto;
   }
