@@ -23,4 +23,7 @@ Deployed Application:
 ## Screenshots
 
 Mobile View  
-![Mobile View](assets/images/screenshot.jpg)
+![Mobile View](assets/images/mobile-view.jpg)
+
+Desktop View  
+![Desktop View](assets/images/desktop-view.jpg)
