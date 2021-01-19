@@ -18,7 +18,7 @@ A responsive website created based on specifications from a designer, created wi
 
 GitHub Repo: https://github.com/MeganCarnaghi/Lab-1.git
 
-Deployed Application:
+Deployed Application: https://megancarnaghi.github.io/HTML-CSS-Lab-1/
 
 ## Screenshots
 
