@@ -181,4 +181,10 @@ h2 {
     right: 20px;
     z-index: 2;
   }
+  /* Using clearfix method to clear floats in .hidden and .main-text divs */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 }
