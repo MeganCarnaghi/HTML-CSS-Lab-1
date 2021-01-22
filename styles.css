@@ -7,6 +7,11 @@
   margin: 0;
 }
 
+/* Styling for the header */
+header {
+  margin: 15px 15px;
+}
+
 /* Styling for body */
 body {
   font-family: "Open Sans", sans-serif;
@@ -14,13 +19,12 @@ body {
 }
 
 /* Styling for navbar container */
-nav {
+/* nav {
   padding: 15px 15px;
-}
+} */
 
 /* Styling for logo */
-.logo a {
-  text-decoration: none;
+.logo {
   color: #000;
 }
 
@@ -107,19 +111,23 @@ h2 {
 
 /* Styling for medium devices + (landscape tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+  /* Styling for header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* Styling for nav */
+  nav {
+    display: flex;
+  }
   /* Styling for nav ul */
   .nav-links {
     display: flex;
-    justify-content: flex-end;
   }
-  /* Styling for nav ul items */
+  /* Styling for nav ul li items */
   .nav-item {
     padding: 0 10px;
-  }
-  /* styling for logo */
-  .logo {
-    flex: 1;
-    align-self: center;
   }
   /* styling for buttons */
   button {
