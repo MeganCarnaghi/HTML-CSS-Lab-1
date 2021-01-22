@@ -139,6 +139,7 @@ h2 {
     position: relative;
     margin-top: 75px;
     padding-top: 0;
+    display: flex;
   }
   /* Styling for the scroll down button */
   .scroll-button {
@@ -148,13 +149,11 @@ h2 {
   }
   /* Styling for main-text div */
   .main-text {
-    float: left;
     width: 50%;
   }
   /* Styling for hidden div */
   .hidden {
     visibility: visible;
-    float: right;
   }
   /* Styling for red circle */
   .red-circle {
@@ -188,11 +187,5 @@ h2 {
     top: 40px;
     right: 20px;
     z-index: 2;
-  }
-  /* Using clearfix method to clear floats in .hidden and .main-text divs */
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
   }
 }
