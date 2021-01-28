@@ -7,15 +7,15 @@
   margin: 0;
 }
 
-/* Styling for the header */
-header {
-  margin: 15px 15px;
-}
-
 /* Styling for body */
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #f9fafc;
+}
+
+/* Styling for the header */
+.header {
+  margin: 15px 15px;
 }
 
 /* Styling for logo */
@@ -24,38 +24,38 @@ body {
 }
 
 /* Remove bullet points from ul list items */
-.nav-links {
+.nav__menu {
   list-style: none;
 }
 
 /* Styling for nav bar list items */
-.nav-item {
+.nav__item {
   margin: 10px 0;
 }
 
 /* Styling for navbar links and various link states */
-.nav-item a:link {
+.nav__item a:link {
   text-decoration: none;
   color: #69696a;
 }
 
-.nav-item a:visited {
+.nav__item a:visited {
   text-decoration: none;
   color: #69696a;
 }
 
-.nav-item a:hover {
+.nav__item a:hover {
   text-decoration: none;
   color: #69696a;
 }
 
-.nav-item a:active {
+.nav__item a:active {
   text-decoration: none;
   color: #69696a;
 }
 
 /* Styling for the two buttons and their various states */
-button {
+.button {
   font-family: "Open Sans", sans-serif;
   background-color: #000;
   color: #fff;
@@ -65,19 +65,19 @@ button {
   width: 100%;
 }
 
-button:link {
+.button:link {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   cursor: pointer;
 }
 
-button:visited {
+.button:visited {
   cursor: pointer;
 }
 
-button:active {
+.button:active {
   cursor: pointer;
 }
 
@@ -87,12 +87,12 @@ button:active {
 }
 
 /*Styling for the h2 in the minn-text div */
-h2 {
+.main__heading {
   font-weight: 500;
 }
 
 /* Styling for main paragraph */
-.container p {
+.main__paragraph {
   color: #69696a;
   border-left: 3px solid #69696a;
   margin: 20px 0 30px 0;
@@ -100,32 +100,32 @@ h2 {
 }
 
 /*Styling for the hidden div */
-.hidden {
+.main__right--hidden {
   visibility: hidden;
 }
 
 /* Styling for medium devices + (landscape tablets, 768px and up) */
 @media screen and (min-width: 768px) {
   /* Styling for header */
-  header {
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   /* Styling for nav */
-  nav {
+  .nav {
     display: flex;
   }
   /* Styling for nav ul */
-  .nav-links {
+  .nav__menu {
     display: flex;
   }
   /* Styling for nav ul li items */
-  .nav-item {
+  .nav__item {
     padding: 0 10px;
   }
   /* styling for buttons */
-  button {
+  .button {
     width: auto;
     padding: 10px 15px;
   }
@@ -137,48 +137,47 @@ h2 {
     display: flex;
   }
   /* Styling for the scroll down button */
-  .scroll-button {
+  .main__button {
     position: fixed;
     bottom: 5px;
     left: 45%;
   }
   /* Styling for main-text div */
-  .main-text {
+  .main__left {
     width: 50%;
   }
-  /* Styling for hidden div */
-  .hidden {
+  /* Styling for main right div */
+  .main__right {
     visibility: visible;
   }
+  /* Styling for all 3 circles in main right div */
+  .main__circle {
+    border-radius: 50%;
+    position: absolute;
+  }
   /* Styling for red circle */
-  .red-circle {
+  .main__circle--red {
     background-color: rgba(247, 136, 167, 0.6);
     width: 275px;
     height: 275px;
-    border-radius: 50%;
-    position: absolute;
     top: 0;
     right: 110px;
     z-index: 1;
   }
   /* Styling for orange circle */
-  .orange-circle {
+  .main__circle--orange {
     background-color: rgba(247, 193, 162, 0.7);
     width: 225px;
     height: 225px;
-    border-radius: 50%;
-    position: absolute;
     top: 165px;
     right: 20px;
     z-index: 3;
   }
   /* Styling for purple circle */
-  .purple-circle {
+  .main__circle--purple {
     background-color: rgba(207, 130, 213, 0.6);
     width: 175px;
     height: 175px;
-    border-radius: 50%;
-    position: absolute;
     top: 40px;
     right: 20px;
     z-index: 2;

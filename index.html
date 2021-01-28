@@ -16,23 +16,23 @@
   </head>
   <body>
     <!--Navigation Bar-->
-    <header>
+    <header class="header">
       <span class="logo"><p>chirpus inc.</p></span>
-      <nav>
-        <ul class="nav-links">
-          <li class="nav-item"><a href="#">Work</a></li>
-          <li class="nav-item"><a href="#">About us</a></li>
-          <li class="nav-item"><a href="#">Contact</a></li>
+      <nav class="nav">
+        <ul class="nav__menu">
+          <li class="nav__item"><a href="#">Work</a></li>
+          <li class="nav__item"><a href="#">About us</a></li>
+          <li class="nav__item"><a href="#">Contact</a></li>
         </ul>
-        <button>Hire Us</button>
+        <button class="button nav__button">Hire Us</button>
       </nav>
     </header>
 
     <!-- Main Content -->
     <main class="container">
-      <div class="main-text">
-        <h2>chirpus inc.</h2>
-        <p>
+      <div class="main__left">
+        <h2 class="main__heading">chirpus inc.</h2>
+        <p class="main__paragraph">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh
           nisl condimentum id. Elementum sagittis vitae et leo duis ut diam.
@@ -40,12 +40,12 @@
           imperdiet sed euismod nisi porta lorem. Tempor commodo ullamcorper a
           lacus vestibulum sed arcu non odio.
         </p>
-        <button class="scroll-button">Scroll Down</button>
+        <button class="button main__button">Scroll Down</button>
       </div>
-      <div class="hidden">
-        <div class="red-circle"></div>
-        <div class="orange-circle"></div>
-        <div class="purple-circle"></div>
+      <div class="main__right main__right--hidden">
+        <div class="main__circle main__circle--red"></div>
+        <div class="main__circle main__circle--orange"></div>
+        <div class="main__circle main__circle--purple"></div>
       </div>
     </main>
   </body>
